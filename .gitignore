@@ -1,0 +1,75 @@
+
+# ==============================
+# Logs
+# ==============================
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+# ==============================
+# Node.js / React frontend
+# ==============================
+node_modules/
+dist/
+dist-ssr/
+*.local
+
+# ==============================
+# Environment files and secrets
+# ==============================
+.env
+.env.*
+!.env.example
+
+# Java / Spring Boot / Maven
+# ==============================
+target/
+*.class
+*.jar
+*.war
+*.ear
+
+# Local application configuration
+application-local.properties
+application-local.yml
+application-local.yaml
+
+# ==============================
+# IDE directories and files
+# ==============================
+.vscode/*
+!.vscode/extensions.json
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+.project
+.classpath
+.settings/
+
+# ==============================
+# Operating system files
+# ==============================
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# ==============================
+# Test and coverage output
+# ==============================
+coverage/
+.nyc_output/
+
+# ==============================
+# Temporary files
+# ==============================
+*.tmp
+*.temp
+*.bak
+*.orig
